@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SasaKaziPrototype">
-        <activity android:name=".UserAuth.LoginActivity"></activity>
+        <activity
+            android:name=".UserAuth.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
